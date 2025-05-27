@@ -46,6 +46,9 @@ namespace Klinik_WEBUI.Controllers
         {
             return View(); 
         }
-
+        public IActionResult A404()
+        {
+            return View();
+        }
     }
 }
